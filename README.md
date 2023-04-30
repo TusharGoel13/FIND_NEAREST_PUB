@@ -8,4 +8,4 @@ Using data from https://www.getthedata.com/open-pubs, we've created a web applic
 
 Simply enter your current location , and we'll show you all the pubs in the area. You can filter the results by distance, rating, and more to find the perfect pub for you and your friends..
 
-Streamlit link : 
+Streamlit link : https://tushargoel13-find-nearest-pub-home-09ulvz.streamlit.app/
