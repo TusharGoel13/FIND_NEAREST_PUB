@@ -17,14 +17,15 @@ st.set_page_config(
 # Main title
 st.title(":red[Pub Locations!] 🍺🍺")
 
-os.chdir("D:/ML & AI (Resources & Work)/5.INNOMATICS INTERNSHIP/5. ML & MLOPS/P17_FIND_NEAREST_PUB/resources")
+# Set the path to the resources directory
+RESOURCES_PATH = os.path.join(os.path.dirname(__file__),os.pardir, "resources")
 
 # Image
-IMAGE_PATH = os.path.join("images", "pub.jpg")
+IMAGE_PATH = os.path.join(RESOURCES_PATH,"images", "pub.jpg")
 img = image.imread(IMAGE_PATH)
 st.image(img,use_column_width=True)
 
-DATA_PATH = os.path.join("data", "cleaned.csv")
+DATA_PATH = os.path.join(RESOURCES_PATH,"data", "cleaned.csv")
 df = pd.read_csv(DATA_PATH)
 
 # select the location type
