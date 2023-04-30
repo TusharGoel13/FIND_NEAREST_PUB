@@ -1,6 +1,6 @@
 # FIND_NEAREST_PUB
 
-![alt text](https://github.com/TusharGoel13/FIND_NEAREST_PUB/blob/main/drink_together.jpg?raw=true)
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.churchillarmskensington.co.uk%2F&psig=AOvVaw2bekVWq03ZIGczObnfia5E&ust=1682946758188000&source=images&cd=vfe&ved=2ahUKEwiX_Oyu19H-AhX2QGwGHffiCiEQjRx6BAgAEAw)
 
 If you're on vacation in the United Kingdom and looking for pubs to visit, you've come to the right place. Google Maps may be down, but we have all the pub locations you need at your fingertips.
 
