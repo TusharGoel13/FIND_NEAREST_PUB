@@ -14,10 +14,11 @@ st.set_page_config(
 # Main title
 st.title("Welcome to :red[Open Pub Application!] 🍻🍻 ")
 
-os.chdir("D:/ML & AI (Resources & Work)/5.INNOMATICS INTERNSHIP/5. ML & MLOPS/P17_FIND_NEAREST_PUB/resources")
+# Set the path to the resources directory
+RESOURCES_PATH = os.path.join(os.path.dirname(__file__), "resources")
 
 # Image
-IMAGE_PATH = os.path.join("images", "drink_together.jpg")
+IMAGE_PATH = os.path.join(RESOURCES_PATH,"images\drink_together.jpg")
 img = image.imread(IMAGE_PATH)
 st.image(img,use_column_width=True)
 
@@ -27,7 +28,7 @@ st.subheader("Using data from https://www.getthedata.com/open-pubs, we've create
 st.subheader("Simply enter your current location , and we'll show you all the pubs in the area. You can filter the results by distance, rating, and more to find the perfect pub for you and your friends..")
 st.subheader("We hope you enjoy using our pub finder web app and discovering all the great pubs that the United Kingdom has to offer!")
 
-DATA_PATH = os.path.join("data", "cleaned.csv")
+DATA_PATH = os.path.join(RESOURCES_PATH,"data", "cleaned.csv")
 
 st.header(":green[DataFrame]")
 df = pd.read_csv(DATA_PATH)
@@ -73,7 +74,7 @@ elif section == 'Missing Values':
     st.write(df.isnull().sum())
 
 st.subheader(":violet[Top 10 Locations :] ")
-IMAGE_PATH_2 = os.path.join("images", "pubs_by_location.png")
+IMAGE_PATH_2 = os.path.join(RESOURCES_PATH,"images", "pubs_by_location.png")
 img = image.imread(IMAGE_PATH_2)
 st.image(img,use_column_width=True)
 
