@@ -18,7 +18,7 @@ st.title("Welcome to :red[Open Pub Application!] 🍻🍻 ")
 RESOURCES_PATH = os.path.join(os.path.dirname(__file__), "resources")
 
 # Image
-IMAGE_PATH = os.path.join(RESOURCES_PATH,"images\drink_together.jpg")
+IMAGE_PATH = os.path.join(RESOURCES_PATH,"images","drink_together.jpg")
 img = image.imread(IMAGE_PATH)
 st.image(img,use_column_width=True)
 
